@@ -1,0 +1,7 @@
+[
+	{"name": "Coal", "group": ["All"], "weight": 1, "recipe": []},
+	{"name": "Charcoal", "group": ["All"], "weight": 1, "recipe": []},
+	{"name": "Stick", "group": ["All"], "weight": 1, "recipe": []},
+	{"name": "Coke", "group": ["All"], "weight": 1, "recipe": [("Coal", 3), ("Charcoal", 3)]},
+	{"name": "Torch", "group": ["All"], "weight": 1, "recipe": [("coke", 1), ("stick", 5)]}		
+]
