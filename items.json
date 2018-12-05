@@ -1,7 +1,16 @@
 [
-	{"name": "Coal", "group": ["All"], "weight": 1, "recipe": []},
-	{"name": "Charcoal", "group": ["All"], "weight": 1, "recipe": []},
-	{"name": "Stick", "group": ["All"], "weight": 1, "recipe": []},
-	{"name": "Coke", "group": ["All"], "weight": 1, "recipe": [("Coal", 3), ("Charcoal", 3)]},
-	{"name": "Torch", "group": ["All"], "weight": 1, "recipe": [("coke", 1), ("stick", 5)]}		
+	{"id": "01", "name": "Thread", "group": ["All"], "weight": 1, "craftable": "false", "recipe": []},
+	{"id": "02", "name": "Stick", "group": ["All"], "weight": 1, "craftable": "false", "recipe": []},
+	{"id": "03", "name": "Pelt", "group": ["All"], "weight": 1, "craftable": "false", "recipe": []},
+	{"id": "04", "name": "Bone", "group": ["All"], "weight": 1, "craftable": "false", "recipe": []},
+	{"id": "05", "name": "Coal", "group": ["All"], "weight": 1, "craftable": "false", "recipe": []},
+	{"id": "06", "name": "Charcoal", "group": ["All"], "weight": 1, "craftable": "false", "recipe": []},
+	
+	{"id": "23", "name": "Coke", "group": ["All"], "weight": 1, "craftable": "true", "recipe": [("Coal", 3), ("Charcoal", 3)]},
+	{"id": "1", "name": "Leather", "group": ["All"], "weight": 1, "recipe": [("Pelt", 4)]},
+	
+	{"id": "1", "name": "Pouch of gold", "group": ["All", "Currency"], "weight": 1, "recipe": [("Leather", 2), ("Thread", 12)]},
+	
+	{"id": "1", "name": "Torch", "group": ["All"], "weight": 1, "recipe": [("coke", 1), ("stick", 5)]},
+	
 ]

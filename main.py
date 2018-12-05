@@ -47,3 +47,5 @@ if __name__ == '__main__':
 
 	for key in items.keys():
 		print(items[key], end='\n\n')
+
+	get_recipe(items[""])
